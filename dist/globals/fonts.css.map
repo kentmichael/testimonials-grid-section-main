@@ -1,0 +1,1 @@
+{"version":3,"sources":["globals/fonts.scss","globals/fonts.css"],"names":[],"mappings":"AAAA,MACE,8CCCF","file":"globals/fonts.css","sourcesContent":[":root {\r\n  --font-body: 'Barlow Semi Condensed', sans-serif;\r\n}",":root {\n  --font-body: \"Barlow Semi Condensed\", sans-serif;\n}"]}

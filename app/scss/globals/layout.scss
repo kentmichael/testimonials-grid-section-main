@@ -1,0 +1,35 @@
+@use '../util' as *;
+
+.container {
+	padding: rem(24);
+	max-width: rem(1115);
+	margin: 0 auto;
+  display: grid;
+  place-content: center;
+  gap: rem(30);
+  min-height: 100vh;
+
+  @include breakpoint(large) {
+		padding: 0;
+		transform: translate(0, 0);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    'col1 col1 col2 col5'
+    'col3 col4 col4 col5';
+    &__col1 {
+      grid-area: col1;
+    }
+    &__col2 {
+      grid-area: col2;
+    }
+    &__col3 {
+      grid-area: col3;
+    }
+    &__col4 {
+      grid-area: col4;
+    }
+    &__col5 {
+      grid-area: col5;
+    }
+	}
+}
